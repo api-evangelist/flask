@@ -41,7 +41,10 @@ apis:
       - REST
       - Lightweight
       - Frameworks
-    properties: []
+    properties:
+      - type: JSONSchema
+        url: >-
+          https://raw.githubusercontent.com/api-evangelist/flask/refs/heads/main/json-schema/flask-config.json
 common:
   - type: Website
     url: https://flask.palletsprojects.com/

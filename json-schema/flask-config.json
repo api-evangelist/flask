@@ -1,0 +1,218 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/api-evangelist/flask/json-schema/flask-config.json",
+  "title": "Flask Application Configuration",
+  "description": "JSON Schema for Flask application configuration values, covering core settings, session, security, template, and common extension configuration.",
+  "type": "object",
+  "properties": {
+    "DEBUG": {
+      "type": "boolean",
+      "description": "Enable debug mode.",
+      "default": false
+    },
+    "TESTING": {
+      "type": "boolean",
+      "description": "Enable testing mode.",
+      "default": false
+    },
+    "SECRET_KEY": {
+      "type": "string",
+      "description": "Secret key for session signing and CSRF protection."
+    },
+    "ENV": {
+      "type": "string",
+      "description": "Application environment (deprecated in Flask 2.3+).",
+      "enum": ["production", "development", "testing"],
+      "default": "production"
+    },
+    "SERVER_NAME": {
+      "type": "string",
+      "description": "Server name for URL generation (host:port)."
+    },
+    "APPLICATION_ROOT": {
+      "type": "string",
+      "description": "Application root path.",
+      "default": "/"
+    },
+    "PREFERRED_URL_SCHEME": {
+      "type": "string",
+      "description": "URL scheme for URL generation.",
+      "enum": ["http", "https"],
+      "default": "http"
+    },
+    "MAX_CONTENT_LENGTH": {
+      "type": "integer",
+      "description": "Maximum request content length in bytes."
+    },
+    "MAX_COOKIE_SIZE": {
+      "type": "integer",
+      "description": "Maximum cookie size warning threshold.",
+      "default": 4093
+    },
+    "SESSION_COOKIE_NAME": {
+      "type": "string",
+      "description": "Name of the session cookie.",
+      "default": "session"
+    },
+    "SESSION_COOKIE_DOMAIN": {
+      "type": "string",
+      "description": "Domain for the session cookie."
+    },
+    "SESSION_COOKIE_PATH": {
+      "type": "string",
+      "description": "Path for the session cookie.",
+      "default": "/"
+    },
+    "SESSION_COOKIE_HTTPONLY": {
+      "type": "boolean",
+      "description": "Set HttpOnly flag on session cookie.",
+      "default": true
+    },
+    "SESSION_COOKIE_SECURE": {
+      "type": "boolean",
+      "description": "Set Secure flag on session cookie.",
+      "default": false
+    },
+    "SESSION_COOKIE_SAMESITE": {
+      "type": "string",
+      "description": "SameSite attribute for session cookie.",
+      "enum": ["Strict", "Lax", "None"],
+      "default": "Lax"
+    },
+    "PERMANENT_SESSION_LIFETIME": {
+      "type": "integer",
+      "description": "Permanent session lifetime in seconds.",
+      "default": 2678400
+    },
+    "SESSION_REFRESH_EACH_REQUEST": {
+      "type": "boolean",
+      "description": "Refresh cookie on each request.",
+      "default": true
+    },
+    "JSON_SORT_KEYS": {
+      "type": "boolean",
+      "description": "Sort keys in JSON responses.",
+      "default": true
+    },
+    "JSONIFY_MIMETYPE": {
+      "type": "string",
+      "description": "MIME type for jsonify responses.",
+      "default": "application/json"
+    },
+    "TEMPLATES_AUTO_RELOAD": {
+      "type": "boolean",
+      "description": "Auto-reload templates on change."
+    },
+    "EXPLAIN_TEMPLATE_LOADING": {
+      "type": "boolean",
+      "description": "Log template loading for debugging.",
+      "default": false
+    },
+    "TRAP_HTTP_EXCEPTIONS": {
+      "type": "boolean",
+      "description": "Trap HTTP exceptions for debugging.",
+      "default": false
+    },
+    "TRAP_BAD_REQUEST_ERRORS": {
+      "type": "boolean",
+      "description": "Trap bad request errors.",
+      "default": false
+    },
+    "PROPAGATE_EXCEPTIONS": {
+      "type": "boolean",
+      "description": "Propagate exceptions instead of handling."
+    },
+    "SQLALCHEMY_DATABASE_URI": {
+      "type": "string",
+      "description": "SQLAlchemy database connection URI (Flask-SQLAlchemy extension)."
+    },
+    "SQLALCHEMY_TRACK_MODIFICATIONS": {
+      "type": "boolean",
+      "description": "Track SQLAlchemy model modifications.",
+      "default": false
+    },
+    "SQLALCHEMY_ECHO": {
+      "type": "boolean",
+      "description": "Echo SQL statements.",
+      "default": false
+    },
+    "SQLALCHEMY_POOL_SIZE": {
+      "type": "integer",
+      "description": "Connection pool size.",
+      "default": 5
+    },
+    "SQLALCHEMY_POOL_TIMEOUT": {
+      "type": "integer",
+      "description": "Pool checkout timeout in seconds.",
+      "default": 10
+    },
+    "SQLALCHEMY_MAX_OVERFLOW": {
+      "type": "integer",
+      "description": "Max connections beyond pool size.",
+      "default": 10
+    },
+    "MAIL_SERVER": {
+      "type": "string",
+      "description": "Mail server hostname (Flask-Mail extension).",
+      "default": "localhost"
+    },
+    "MAIL_PORT": {
+      "type": "integer",
+      "description": "Mail server port.",
+      "default": 25
+    },
+    "MAIL_USE_TLS": {
+      "type": "boolean",
+      "description": "Use TLS for mail.",
+      "default": false
+    },
+    "MAIL_USE_SSL": {
+      "type": "boolean",
+      "description": "Use SSL for mail.",
+      "default": false
+    },
+    "MAIL_USERNAME": {
+      "type": "string",
+      "description": "Mail server username."
+    },
+    "MAIL_PASSWORD": {
+      "type": "string",
+      "description": "Mail server password."
+    },
+    "CACHE_TYPE": {
+      "type": "string",
+      "description": "Cache backend type (Flask-Caching extension).",
+      "enum": ["NullCache", "SimpleCache", "FileSystemCache", "RedisCache", "MemcachedCache"],
+      "default": "NullCache"
+    },
+    "CACHE_DEFAULT_TIMEOUT": {
+      "type": "integer",
+      "description": "Default cache timeout in seconds.",
+      "default": 300
+    },
+    "CACHE_REDIS_URL": {
+      "type": "string",
+      "description": "Redis URL for cache backend."
+    },
+    "CORS_ORIGINS": {
+      "type": "array",
+      "description": "Allowed origins for CORS (Flask-CORS extension).",
+      "items": {
+        "type": "string"
+      }
+    },
+    "CORS_METHODS": {
+      "type": "array",
+      "description": "Allowed HTTP methods for CORS.",
+      "items": {
+        "type": "string"
+      }
+    },
+    "CORS_SUPPORTS_CREDENTIALS": {
+      "type": "boolean",
+      "description": "Allow credentials in CORS requests.",
+      "default": false
+    }
+  },
+  "additionalProperties": true
+}
