@@ -1,11 +1,22 @@
 aid: flask
 name: Flask
 description: >-
-  Flask is a lightweight Python web framework for building web applications and microservices with a flexible and extensible architecture.
+  Flask is a lightweight WSGI web application framework for Python, designed
+  to make getting started quick and easy with the ability to scale up to
+  complex applications. It provides a simple core with Jinja2 templating and
+  Werkzeug WSGI toolkit, and is extensible through a rich ecosystem of
+  extensions for database integration, form validation, authentication, and
+  more.
 type: Index
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 tags:
-  - Microservices
+  - APIs
+  - Python
+  - Web Framework
+  - WSGI
+  - REST
+  - Lightweight
+  - Frameworks
 url: >-
   https://raw.githubusercontent.com/api-evangelist/flask/refs/heads/main/apis.yml
 created: '2026-03-26'
@@ -15,14 +26,39 @@ apis:
   - aid: flask:flask
     name: Flask
     description: >-
-      Flask is a lightweight Python web framework for building web applications and microservices with a flexible and extensible architecture.
-    humanURL: https://github.com/api-evangelist/flask
+      Flask is a lightweight WSGI web application framework for Python,
+      designed to make getting started quick and easy with the ability to scale
+      up to complex applications. It provides a simple core with Jinja2
+      templating and Werkzeug WSGI toolkit, and is extensible through a rich
+      ecosystem of extensions for database integration, form validation,
+      authentication, and more.
+    humanURL: https://flask.palletsprojects.com/
     tags:
-      - Microservices
+      - APIs
+      - Python
+      - Web Framework
+      - WSGI
+      - REST
+      - Lightweight
+      - Frameworks
     properties: []
 common:
   - type: Website
-    url: https://github.com/api-evangelist/flask
+    url: https://flask.palletsprojects.com/
+  - type: Documentation
+    url: https://flask.palletsprojects.com/en/stable/
+  - type: Getting Started
+    url: https://flask.palletsprojects.com/en/stable/quickstart/
+  - type: GitHub Organization
+    url: https://github.com/pallets
+  - type: GitHub Repository
+    url: https://github.com/pallets/flask
+  - type: Blog
+    url: https://palletsprojects.com/blog/
+  - type: PyPI
+    url: https://pypi.org/project/flask/
+  - type: Extensions
+    url: https://flask.palletsprojects.com/en/stable/extensions/
 maintainers:
   - FN: Kin Lane
     email: kin@apievangelist.com
