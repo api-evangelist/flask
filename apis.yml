@@ -1,0 +1,28 @@
+aid: flask
+name: Flask
+description: >-
+  Flask is a lightweight Python web framework for building web applications and microservices with a flexible and extensible architecture.
+type: Index
+image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+tags:
+  - Microservices
+url: >-
+  https://raw.githubusercontent.com/api-evangelist/flask/refs/heads/main/apis.yml
+created: '2026-03-26'
+modified: '2026-03-26'
+specificationVersion: '0.19'
+apis:
+  - aid: flask:flask
+    name: Flask
+    description: >-
+      Flask is a lightweight Python web framework for building web applications and microservices with a flexible and extensible architecture.
+    humanURL: https://github.com/api-evangelist/flask
+    tags:
+      - Microservices
+    properties: []
+common:
+  - type: Website
+    url: https://github.com/api-evangelist/flask
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
