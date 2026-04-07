@@ -10,13 +10,12 @@ description: >-
 type: Index
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 tags:
-  - APIs
+  - Frameworks
+  - Lightweight
   - Python
+  - REST
   - Web Framework
   - WSGI
-  - REST
-  - Lightweight
-  - Frameworks
 url: >-
   https://raw.githubusercontent.com/api-evangelist/flask/refs/heads/main/apis.yml
 created: '2026-03-26'
@@ -34,13 +33,12 @@ apis:
       authentication, and more.
     humanURL: https://flask.palletsprojects.com/
     tags:
-      - APIs
+      - Frameworks
+      - Lightweight
       - Python
+      - REST
       - Web Framework
       - WSGI
-      - REST
-      - Lightweight
-      - Frameworks
     properties:
       - type: JSONSchema
         url: >-
