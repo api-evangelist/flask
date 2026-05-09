@@ -4,10 +4,10 @@
     {
       "source": "https://palletsprojects.com/blog/",
       "feed_url": "https://palletsprojects.com/blog/feed.xml",
-      "saved": 10,
-      "title": "Pallets Blog"
+      "title": "Pallets Blog",
+      "saved": 0
     }
   ],
   "post_count": 10,
-  "fetched": "2026-05-03T23:27:57Z"
+  "fetched": "2026-05-09T20:17:51Z"
 }
