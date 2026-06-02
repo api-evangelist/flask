@@ -2,12 +2,20 @@
   "repo": "flask",
   "feeds": [
     {
-      "source": "https://palletsprojects.com/blog/",
+      "source": "https://palletsprojects.com/blog/feed.xml",
       "feed_url": "https://palletsprojects.com/blog/feed.xml",
-      "title": "Pallets Blog",
-      "saved": 6
+      "title": "",
+      "saved": 0,
+      "method": "feed"
+    },
+    {
+      "source": "https://github.com/pallets/flask",
+      "feed_url": "https://github.com/pallets/flask",
+      "title": "",
+      "saved": 0,
+      "method": "none"
     }
   ],
   "post_count": 16,
-  "fetched": "2026-05-17T20:20:35Z"
+  "fetched": "2026-06-01T23:35:02Z"
 }
