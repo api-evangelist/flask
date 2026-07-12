@@ -53,6 +53,8 @@ apis:
       - type: JSONSchema
         url: json-schema/flask-config.json
 common:
+  - type: DomainSecurity
+    url: security/flask-domain-security.yml
   - type: Website
     url: https://flask.palletsprojects.com/
   - type: Documentation
