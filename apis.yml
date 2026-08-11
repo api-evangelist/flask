@@ -65,6 +65,14 @@ apis:
       - type: JSONSchema
         url: json-schema/flask-config.json
 common:
+  - type: IssueTracker
+    url: https://github.com/pallets/flask/issues
+  - type: Releases
+    url: https://github.com/pallets/flask/releases
+  - type: CodeOfConduct
+    url: https://github.com/pallets/.github/blob/main/CODE_OF_CONDUCT.md
+  - type: ContributionGuide
+    url: https://github.com/pallets/flask/blob/main/docs/contributing.rst
   - type: DomainSecurity
     url: security/flask-domain-security.yml
   - type: Website
