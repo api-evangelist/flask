@@ -28,6 +28,14 @@ tags:
   - Frameworks
   - Lightweight
   - Microframework
+  - pallets
+  - Python
+  - Web Framework
+  - WSGI
+tags_raw:
+  - Frameworks
+  - Lightweight
+  - Microframework
   - Pallets
   - Python
   - Web Framework
@@ -48,6 +56,14 @@ apis:
       here as a JSON Schema for tooling and validation purposes.
     humanURL: https://flask.palletsprojects.com/
     tags:
+      - Frameworks
+      - Lightweight
+      - Microframework
+      - pallets
+      - Python
+      - Web Framework
+      - WSGI
+    tags_raw:
       - Frameworks
       - Lightweight
       - Microframework
