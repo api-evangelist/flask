@@ -39,7 +39,7 @@ tags:
   - Frameworks
   - Lightweight
   - Microframework
-  - Pallets
+  - pallets
   - Python
   - Web Framework
   - WSGI
@@ -70,7 +70,7 @@ apis:
       - Frameworks
       - Lightweight
       - Microframework
-      - Pallets
+      - pallets
       - Python
       - Web Framework
       - WSGI
