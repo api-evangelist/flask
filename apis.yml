@@ -36,7 +36,7 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/flask.png
 access: Open Source
 position: Producing
 tags:
-  - Frameworks
+  - Framework
   - Lightweight
   - Microframework
   - pallets
@@ -67,7 +67,7 @@ apis:
       here as a JSON Schema for tooling and validation purposes.
     humanURL: https://flask.palletsprojects.com/
     tags:
-      - Frameworks
+      - Framework
       - Lightweight
       - Microframework
       - pallets
