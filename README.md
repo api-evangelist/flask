@@ -1,4 +1,4 @@
-# Flask (flask)
+# Flask
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -66,62 +66,116 @@
 
 Flask is a lightweight WSGI web application framework for Python, designed to make getting started quick and easy with the ability to scale up to complex applications. It provides a simple core with Jinja2 templating and Werkzeug WSGI toolkit, and is extensible through a rich ecosystem of extensions for database integration, form validation, authentication, and more. Flask is a popular foundation for building APIs and web services in Python.
 
-**URL:** [Visit APIs.json URL](https://raw.githubusercontent.com/api-evangelist/flask/refs/heads/main/apis.yml)
+**Areas:** Framework · Lightweight · Microframework · pallets · Python · Web Framework · WSGI
 
-## Scope
+## Flask on APIs.io
 
-- **Type:** Index
-- **Position:** Producer
-- **Access:** Open Source
+Everything profiled for Flask is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/flask/](https://apis.io/providers/flask/)** — or go straight to one of the APIs or properties below.
 
-## Tags:
+### APIs (1)
 
- - Frameworks, Lightweight, Microframework, Pallets, Python, Web Framework, WSGI
+- [Flask](https://apis.io/apis/flask/flask/) — Flask is a lightweight WSGI web application framework for Python. It is commonly used as a foundation for building HTTP APIs and web services. While Flask…
 
-## Timestamps
+### Published properties
 
-- **Created:** 2026-03-26
-- **Modified:** 2026-04-28
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
 
-## APIs
+#### JSON Schema (1)
 
-### Flask
-Flask is a lightweight WSGI web application framework for Python. It is commonly used as a foundation for building HTTP APIs and web services. While Flask itself does not expose an HTTP API, it ships with a configurable runtime whose configuration surface is captured here as a JSON Schema for tooling and validation purposes.
+The data models the API reads and writes.
 
-**Human URL:** [https://flask.palletsprojects.com/](https://flask.palletsprojects.com/)
+- [Flask Application Configuration](https://apis.io/schemas/flask/flask-config/)
 
-#### Tags:
+#### Governance rules (1)
 
- - Frameworks, Lightweight, Microframework, Pallets, Python, Web Framework, WSGI
+Spectral rulesets for the provider's contracts.
 
-#### Properties
+- [Flask — jsonschema rules](https://apis.io/rules/flask/flask-jsonschema-spectral-rules/)
 
-- [Documentation](https://flask.palletsprojects.com/en/stable/)
-- [GettingStarted](https://flask.palletsprojects.com/en/stable/quickstart/)
-- [SourceCode](https://github.com/pallets/flask)
-- [JSONSchema](json-schema/flask-config.json)
+#### Security (1)
 
-## Common Properties
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Flask Domain Security](https://apis.io/security/flask/flask-domain-security/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Flask Plans Pricing](https://apis.io/plans/flask/flask-plans-pricing/)
+
+#### Rate limits (1)
+
+Published request limits.
+
+- [Flask Rate Limits](https://apis.io/rate-limits/flask/flask-rate-limits/)
+
+#### FinOps (1)
+
+What the API costs to run, by operation.
+
+- [Flask Finops](https://apis.io/finops/flask/flask-finops/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
 
 - [Website](https://flask.palletsprojects.com/)
 - [Documentation](https://flask.palletsprojects.com/en/stable/)
-- [GettingStarted](https://flask.palletsprojects.com/en/stable/quickstart/)
-- [GitHubOrganization](https://github.com/pallets)
-- [SourceCode](https://github.com/pallets/flask)
+- [Getting started](https://flask.palletsprojects.com/en/stable/quickstart/)
+- [Changelog](https://flask.palletsprojects.com/en/stable/changes/)
 - [Blog](https://palletsprojects.com/blog/)
-- [PyPI](https://pypi.org/project/flask/)
-- [Extensions](https://flask.palletsprojects.com/en/stable/extensions/)
-- [ChangeLog](https://flask.palletsprojects.com/en/stable/changes/)
-- [License](https://github.com/pallets/flask/blob/main/LICENSE.txt)
+- [GitHub](https://github.com/pallets)
 
-## Artifacts
+## API Evangelist rating
 
-### JSON Schema
+**Kin Score 21.7** — emerging · rubric 0.24.0 · scored 2026-10-17
 
-- [Flask Config](json-schema/flask-config.json)
+| Facet | Score |
+|---|---|
+| Discoverability | 57.1 |
+| Contract quality | 7.2 |
+| Contract governance | 9.8 |
+| Operational transparency | 26.3 |
+| Developer ergonomics | 23.8 |
+| Access clarity | 7.9 |
 
-## Maintainers
+**Agent readiness 0.6** — human-only
 
-**FN:** Kin Lane
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | derived (partial credit) |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
 
-**Email:** kin@apievangelist.com
+**Regulatory alignment 5.9** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/flask/](https://apis.io/providers/flask/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Flask: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/flask/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
